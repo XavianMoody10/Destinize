@@ -1,0 +1,37 @@
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: #969bab;
+  cursor: pointer;
+}
+
+.navigation__icons {
+  display: flex;
+  gap: 5px;
+}
+
+.navigation__icons__trash,
+.navigation__icons__user {
+  height: 34px;
+  width: 34px;
+  padding: 9px;
+  border-radius: 100%;
+}
+
+.navigation__icons__trash {
+  color: white;
+  background-color: #4737ff;
+}
+
+.navigation__icons__user {
+  color: #4475f2;
+  background-color: #d9e3fc;
+}

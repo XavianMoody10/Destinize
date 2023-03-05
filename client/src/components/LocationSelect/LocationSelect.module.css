@@ -1,0 +1,48 @@
+.location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.location__icon {
+  border-radius: 100%;
+  padding: 8px;
+  height: 35px;
+  width: 35px;
+  color: #4475f2;
+  background-color: #d9e3fc;
+}
+
+.location__select p {
+  display: flex;
+  flex-direction: column;
+}
+
+.location__select {
+  display: flex;
+  align-items: flex-end;
+}
+
+.location__select__wrapper select {
+  border: none;
+  outline: none;
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+}
+
+.location__select__region {
+  font-size: 0.6rem;
+  color: #969bab;
+}
+
+.location__select__wrapper select:valid {
+  color: #4475f2;
+  font-weight: bold;
+}
+
+.location__select select option {
+  display: flex;
+  flex-direction: column;
+}

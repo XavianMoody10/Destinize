@@ -1,0 +1,27 @@
+.language {
+  display: flex;
+  align-items: center;
+  color: #969bab;
+}
+
+.language__select {
+  border: none;
+  outline: none;
+}
+
+.language__globe {
+  font-size: 1.3rem;
+}
+
+.language__select__option {
+  font-size: 0.8rem;
+}
+
+.language__globe,
+.language__select:valid {
+  color: #969bab;
+}
+
+.language__select:valid {
+  font-size: 0.8rem;
+}
