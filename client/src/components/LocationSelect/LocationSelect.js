@@ -13,9 +13,7 @@ export const LocationSelect = () => {
           <p className={styles.location__select__region}>Lokasi</p>
           <select>
             <option value={"Indonesia, Yogyakarta"}>
-              <p>
-                <span>Indonesia, Yogyakarta</span>
-              </p>
+              Indonesia, Yogyakarta
             </option>
           </select>
         </div>

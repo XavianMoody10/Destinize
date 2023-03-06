@@ -13,11 +13,6 @@
   background-color: #d9e3fc;
 }
 
-.location__select p {
-  display: flex;
-  flex-direction: column;
-}
-
 .location__select {
   display: flex;
   align-items: flex-end;
