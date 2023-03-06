@@ -7,16 +7,17 @@
 .hero__wrapper {
   display: flex;
   align-items: flex-start;
+  gap: 20px;
 }
 
 .hero__text {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .hero__text p:nth-of-type(1) {
   border-radius: 50px;
   width: fit-content;
-  padding: 5px 20px;
+  padding: 7px 20px;
   font-size: 14px;
   font-weight: 600;
   color: #4f7df3;
@@ -90,5 +91,7 @@
 }
 
 .hero__image {
-  object-fit: contain;
+  object-fit: cover;
+  height: 680px;
+  width: 550px;
 }

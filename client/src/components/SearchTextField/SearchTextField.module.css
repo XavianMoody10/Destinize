@@ -5,10 +5,10 @@
 
 .searchbar {
   border: none;
-  width: 500px;
+  width: 530px;
   display: flex;
   align-items: center;
-  padding: 3px 15px;
+  padding: 5px 15px;
   border-radius: 100px;
 }
 

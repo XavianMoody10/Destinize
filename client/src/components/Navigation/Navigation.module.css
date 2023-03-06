@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .navigation__item {
@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 0.8rem;
+  font-size: 14px;
   color: #969bab;
   cursor: pointer;
 }
@@ -20,9 +20,9 @@
 
 .navigation__icons__trash,
 .navigation__icons__user {
-  height: 34px;
-  width: 34px;
-  padding: 9px;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
   border-radius: 100%;
 }
 

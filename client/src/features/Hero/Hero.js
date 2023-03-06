@@ -34,7 +34,6 @@ export const Hero = () => {
           className={styles.hero__image}
           src={heroImage}
           alt="hero_image"
-          height={700}
         ></img>
       </div>
     </section>
