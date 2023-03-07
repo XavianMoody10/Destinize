@@ -52,7 +52,7 @@ export const Destinations = () => {
           </h2>
 
           <p>
-            Lihat semua{" "}
+            Lihat semua
             <IoIosArrowForward className={styles.destinations__arrow} />
           </p>
         </div>

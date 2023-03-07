@@ -1,4 +1,6 @@
 import "./App.css";
+import { Attractions } from "./features/Attractions/Attractions";
+import { Blog } from "./features/Blog/Blog";
 import { Destinations } from "./features/Destinations/Destinations";
 import { Header } from "./features/Header/Header";
 import { Hero } from "./features/Hero/Hero";
@@ -13,6 +15,8 @@ function App() {
       <Partnership></Partnership>
       <Destinations></Destinations>
       <Reservation></Reservation>
+      <Attractions></Attractions>
+      <Blog></Blog>
     </div>
   );
 }

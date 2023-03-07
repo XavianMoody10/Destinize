@@ -1,0 +1,60 @@
+.gallery__banner {
+  grid-column: 1/13;
+  grid-row: 8/13;
+  height: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.gallery__banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.378);
+}
+
+.gallery__banner .text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 2;
+}
+
+.gallery__banner .text p:nth-of-type(1) {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 2.1px;
+}
+.gallery__banner .text p:nth-of-type(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  width: 695px;
+  color: white;
+}
+.gallery__banner .text ul {
+  display: flex;
+  gap: 10px;
+}
+.gallery__banner .text ul li {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
