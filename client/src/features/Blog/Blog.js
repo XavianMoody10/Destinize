@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Blog.module.css";
-import { IoIosArrowForward } from "react-icons/io";
 import { GalleryCard } from "../../components/GalleryCard/GalleryCard";
 import { GalleryVideo } from "../../components/GalleryVideo/GalleryVideo";
 import { GalleryBanner } from "../../components/GalleryBanner/GalleryBanner";
