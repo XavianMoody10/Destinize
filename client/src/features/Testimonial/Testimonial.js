@@ -6,8 +6,10 @@ import image3 from "../../assets/testimonies/image3.png";
 import ratingImage from "../../assets/testimonies/stars.png";
 
 export const Testimonial = () => {
+  // Testimonies array
   const testimonies = [
     {
+      id: 0,
       image: image1,
       testimony:
         "Destinize membantu saya Mencari spot tempat wisata baru di Indonesia dengan Mudah",
@@ -15,6 +17,7 @@ export const Testimonial = () => {
       from: "Dosen di WPU",
     },
     {
+      id: 1,
       image: image2,
       testimony:
         "Destinize membantu saya mendapatkan jodoh, tidak disangka bahwa jodoh saya adalah CS nya",
@@ -22,6 +25,7 @@ export const Testimonial = () => {
       from: "Mahasiswa di WPU",
     },
     {
+      id: 2,
       image: image3,
       testimony:
         "Bikini Bottom menjadi sangat ramai dikunjungi saat saya  memasukkannya di Destinize",
@@ -30,17 +34,20 @@ export const Testimonial = () => {
     },
   ];
 
-  const testimoniesMap = testimonies.map(({ image, testimony, name, from }) => {
-    return (
-      <div className={styles.testimony__card}>
-        <img className={styles.pic} src={image} alt="pic" height={149} />
-        <p className={styles.testimony}>{testimony}</p>
-        <img className={styles.rate} src={ratingImage} alt="rate" height={22} />
-        <p className={styles.testimony__name}>{name}</p>
-        <p className={styles.testimony__from}>{from}</p>
-      </div>
-    );
-  });
+  // Testimonial cards display using map array method
+  const testimoniesMap = testimonies.map(
+    ({ id, image, testimony, name, from }) => {
+      return (
+        <div className={styles.testimony__card} key={id}>
+          <img className={styles.pic} src={image} alt="pic" height={149} />
+          <p className={styles.testimony}>{testimony}</p>
+          <img src={ratingImage} alt="rate" height={22} />
+          <p className={styles.testimony__name}>{name}</p>
+          <p className={styles.testimony__from}>{from}</p>
+        </div>
+      );
+    }
+  );
 
   return (
     <section className={styles.testimonial}>

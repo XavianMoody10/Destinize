@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Destinations.module.css";
-import { IoIosArrowForward } from "react-icons/io";
 import image1 from "../../assets/destinations/image1.png";
 import image2 from "../../assets/destinations/image2.png";
 import image3 from "../../assets/destinations/image3.png";
 import image4 from "../../assets/destinations/image4.png";
 import { DestinationCards } from "../../components/DestinationCards/DestinationCards";
+import { PrimaryHeader } from "../../components/PrimaryHeader/PrimaryHeader";
 
 export const Destinations = () => {
   const destinations = [
@@ -31,6 +31,7 @@ export const Destinations = () => {
     },
   ];
 
+  // Destination map
   const destimationMap = destinations.map(({ image, location, island }) => {
     return (
       <DestinationCards
@@ -45,17 +46,11 @@ export const Destinations = () => {
   return (
     <section className={styles.destinations}>
       <div className={styles.destinations__wrapper}>
-        <div className={styles.destinations__text}>
-          <h2 className={styles.destinations__header}>
-            <span>DESTINASI FAVORIT</span>
-            <span>✈ • Temukan Destinasi Favoritmu </span>
-          </h2>
-
-          <p>
-            Lihat semua
-            <IoIosArrowForward className={styles.destinations__arrow} />
-          </p>
-        </div>
+        <PrimaryHeader
+          category={"DESTINASI FAVORIT"}
+          heading={"✈ • Temukan Destinasi Favoritmu"}
+          row
+        ></PrimaryHeader>
 
         <div className={styles.destinations__favorites__wrapper}>
           {destimationMap}

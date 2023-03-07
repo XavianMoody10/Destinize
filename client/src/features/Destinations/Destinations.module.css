@@ -12,48 +12,6 @@
   width: 80%;
 }
 
-.destinations__text {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-
-.destinations__header {
-  display: flex;
-  flex-direction: column;
-  font-size: 36px;
-}
-
-.destinations__header span:nth-of-type(1) {
-  font-size: 18px;
-  color: #4475f2;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-
-.destinations__header span:nth-of-type(2) {
-  font-size: 32px;
-}
-
-.destinations__text p {
-  color: #4475f2;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.destinations__text p:hover {
-  text-decoration: underline;
-}
-
-.destinations__arrow {
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
 .destinations__favorites__wrapper {
   display: flex;
   justify-content: space-between;
