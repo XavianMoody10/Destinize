@@ -2,6 +2,7 @@ import "./App.css";
 import { Attractions } from "./features/Attractions/Attractions";
 import { Blog } from "./features/Blog/Blog";
 import { Destinations } from "./features/Destinations/Destinations";
+import { FAQ } from "./features/FAQ/FAQ";
 import { Header } from "./features/Header/Header";
 import { Hero } from "./features/Hero/Hero";
 import { Partnership } from "./features/Partnership/Partnership";
@@ -19,6 +20,7 @@ function App() {
       <Attractions></Attractions>
       <Blog></Blog>
       <Testimonial></Testimonial>
+      <FAQ></FAQ>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.faq {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.faq__wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 400px;
+}
