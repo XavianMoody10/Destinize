@@ -4,6 +4,7 @@ import image1 from "../../assets/testimonies/image1.png";
 import image2 from "../../assets/testimonies/image2.png";
 import image3 from "../../assets/testimonies/image3.png";
 import ratingImage from "../../assets/testimonies/stars.png";
+import { PrimaryHeader } from "../../components/PrimaryHeader/PrimaryHeader";
 
 export const Testimonial = () => {
   // Testimonies array
@@ -52,18 +53,13 @@ export const Testimonial = () => {
   return (
     <section className={styles.testimonial}>
       <div className={styles.testimonial__wrapper}>
-        <div className={styles.testimonial__text}>
-          <h2 className={styles.testimonial__header}>
-            <span>TESTIMONIAL DESTINIZE</span>
-            <span>💬 • Apa Kata Mereka Tentang Kami</span>
-          </h2>
-
-          <p className={styles.testimonial__info}>
-            Penasaran apa saja review dari pengguna yang memakai aplikasi dan
-            website Destinize buat nentuin kemana liburan mereka selanjutnya?
-            Yuk cek dibawah!
-          </p>
-        </div>
+        <PrimaryHeader
+          category={"TESTIMONIAL DESTINIZE"}
+          heading={"💬 • Apa Kata Mereka Tentang Kami"}
+          info={
+            "Penasaran apa saja review dari pengguna yang memakai aplikasi dan website Destinize buat nentuin kemana liburan mereka selanjutnya? Yuk cek dibawah!"
+          }
+        />
 
         <div className={styles.testimonies}>{testimoniesMap}</div>
       </div>

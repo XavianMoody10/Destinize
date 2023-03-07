@@ -12,44 +12,13 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 100px;
-}
-
-.testimonial__text {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.testimonial__header {
-  display: flex;
-  flex-direction: column;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.testimonial__header span:nth-of-type(1) {
-  font-size: 18px;
-  color: #4475f2;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-.testimonial__header span:nth-of-type(2) {
-  font-size: 56px;
-}
-
-.testimonial__info {
-  width: 820px;
-  line-height: 32px;
-  font-size: 18px;
 }
 
 .testimonies {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-top: 30px;
 }
 
 .testimony__card {

@@ -1,37 +1,9 @@
-.attractions {
-}
-
 .attractions__wrapper {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.attractions__header {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.attractions__header span:nth-of-type(1) {
-  color: #4737ff;
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.attractions__header span:nth-of-type(2) {
-  font-weight: 800;
-  font-size: 48px;
-}
-
-.attractions__info {
-  width: 820px;
-  color: #18191f;
-  margin-bottom: 40px;
-  font-size: 18px;
-  line-height: 32px;
 }
 
 .attractions__image {

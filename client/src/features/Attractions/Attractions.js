@@ -3,27 +3,21 @@ import styles from "./Attractions.module.css";
 import mapImage from "../../assets/map.png";
 import { MdAddLocationAlt, MdGroups } from "react-icons/md";
 import { BsFillSuitHeartFill } from "react-icons/bs";
+import { PrimaryHeader } from "../../components/PrimaryHeader/PrimaryHeader";
 
 export const Attractions = () => {
   return (
     <div className={styles.attractions}>
       <div className={styles.attractions__wrapper}>
-        <h2 className={styles.attractions__header}>
-          <span>CARI TEMPAT WISATA</span>
-          <span>🗺 • Cari Tempat Wisata Didekatmu</span>
-        </h2>
+        <PrimaryHeader
+          category={"CARI TEMPAT WISATA"}
+          heading={"🗺 • Cari Tempat Wisata Didekatmu"}
+          info={
+            "Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang sedang populer di daerah kamu dengan begitu kamu akan selalu update dan gak kudet lagi 👍🏻"
+          }
+        />
 
-        <p className={styles.attractions__info}>
-          Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat
-          yang sedang populer di daerah kamu dengan begitu kamu akan selalu
-          update dan gak kudet lagi 👍🏻
-        </p>
-
-        <img
-          className={styles.attractions__image}
-          src={mapImage}
-          alt="map"
-        ></img>
+        <img className={styles.attractions__image} src={mapImage} alt="map" />
 
         <ul className={styles.attractions__list}>
           <li>
