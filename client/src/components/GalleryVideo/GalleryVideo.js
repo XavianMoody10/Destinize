@@ -5,7 +5,7 @@ import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 
 export const GalleryVideo = () => {
   const vidRef = useRef();
-  const [played, isPlayed] = useState(false);
+  const [played, isPlayed] = useState(true);
 
   const toggleVideo = () => {
     if (vidRef.current.paused) {
@@ -22,9 +22,9 @@ export const GalleryVideo = () => {
       <video src={galleryVideo} muted autoPlay loop ref={vidRef} />
       <button onClick={toggleVideo}>
         {played ? (
-          <BsFillPlayFill fontSize={50} />
-        ) : (
           <BsPauseFill fontSize={50} />
+        ) : (
+          <BsFillPlayFill fontSize={50} />
         )}
       </button>
     </div>
