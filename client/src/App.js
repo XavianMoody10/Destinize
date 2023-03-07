@@ -6,6 +6,7 @@ import { Header } from "./features/Header/Header";
 import { Hero } from "./features/Hero/Hero";
 import { Partnership } from "./features/Partnership/Partnership";
 import { Reservation } from "./features/Reservation/Reservation";
+import { Testimonial } from "./features/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Reservation></Reservation>
       <Attractions></Attractions>
       <Blog></Blog>
+      <Testimonial></Testimonial>
     </div>
   );
 }
