@@ -22,3 +22,8 @@ What I learned:
 
 What I hope to improve:
 -Honestly, I would have to learn another method besides CSS modules, or maybe continue using the BEM model.
+
+<!-- THESE ARE THE REOURCES I USED FOR MY PROJECT -->
+
+Design Credit:
+-Figma Design: https://www.figma.com/community/file/1210601516714970320
