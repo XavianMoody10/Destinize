@@ -8,9 +8,9 @@ Project Description:
 It's a traveling brochure for Indonesia. This is a modern ui application made with ReactJS.
 
 Technologies Used:
-React
-CSS Modules
-React Icons
+React,
+CSS Modules,
+React Icons,
 Figma (Website Design)
 
 Why This Project:
